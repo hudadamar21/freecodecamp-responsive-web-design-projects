@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survay Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. At ex dolore nulla nam aspernatur, nemo dolor pariatur voluptates magni fugit eius obcaecati, nesciunt voluptatem reprehenderit totam iusto vel ad vitae?
+  </p>
+  <form action="" id="survey-form">
+    <label for="name" id="name-label">
+      Name
+      <input type="text" id="name" placeholder="type your name" required>
+    </label>
+    
+    <label for="email" id="email-label">
+      Email
+      <input type="email" id="email" placeholder="type your email" required>
+    </label>
+    
+    <label for="number" id="number-label">
+      Number
+      <input type="number" id="number" min="1" max="25" placeholder="type a number" required>
+    </label>
+
+    <select id="dropdown">
+      <option value="red">red</option>
+      <option value="blue">blue</option>
+      <option value="green">green</option>
+    </select>
+
+    <div>
+      <input type="radio" name="day" value="senin">
+      <input type="radio" name="day" value="selasa">
+      <input type="radio" name="day" value="rabu">
+    </div>
+
+    <input type="checkbox" name="good" value="good">
+    <input type="checkbox" name="bad" value="bad">
+
+    <textarea cols="30" rows="10" placeholder="comments"></textarea>
+    
+    <button type="submit" id="submit">Submit</button>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </form>
+</body>
+</html>
