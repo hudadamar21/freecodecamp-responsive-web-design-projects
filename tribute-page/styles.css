@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  place-items: center;
+}
+main {
+  width: 800px;
+  display: grid;
+  place-items: center;
+  padding-bottom: 5rem;
+}
+
+figure figcaption {
+  display: none;
+}
+
+table {
+  margin-bottom: 2rem;
+}
+
+table tbody tr td {
+  padding: 0.5rem 1rem;
+}
+
+#tribute-info {
+  display: grid;
+  place-items: center;
+}
+
+#tribute-info p {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  width: 300px;
+}
+
+#tribute-link {
+  font-size: 1.5rem;
+}
